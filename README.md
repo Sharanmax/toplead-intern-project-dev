@@ -16,6 +16,11 @@ By colocating all of the above in one place, Formik keeps things organized--maki
  a React UI library  that contains a set of high quality components and demos for building rich, interactive user interfaces.
 
 # Getting started
+
+# to run this project
+npm install
+npm run start
+
 # formik-antd
 npm install formik-antd
 
@@ -38,12 +43,6 @@ Formik provides form- and field-level validation callbacks to provide validation
 Form-level validation is done by setting formiks validate prop. Field-level validation is optional available on the components. Additional to the name prop formiks optional validate?: (value: any) => undefined | string | Promise<any> is added to all core components to allow field-level validation. There is one special case to be aware of when using field-level validation: When using the Form.Item component with another Antd field component, the validate prop has to be added to the Form.Item, not the input component:
 
 
-# Rendering Validation Feedback
 
-Showing validation messages can be accomplished with the Form.Item component (or FormItem which is the same). 
-
-It renders error messages if the field has been touched and the corresponding field has a validation error (and changes the border color of enclosed input component to red).
-Renders a green success icon messages if it's showValidateSuccess: boolean prop is set to true, the field has been touched and the corresponding field does not have a validation error.
-Exposes some layout features and a label (visit https://ant.design/components/form/ for the details).
 
 
