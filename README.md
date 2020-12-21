@@ -16,8 +16,6 @@ By colocating all of the above in one place, Formik keeps things organized--maki
  a React UI library  that contains a set of high quality components and demos for building rich, interactive user interfaces.
 
 # Getting started
-
-# to run this project
 npm install
 
 npm run start
