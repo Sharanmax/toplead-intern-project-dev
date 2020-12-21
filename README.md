@@ -19,6 +19,7 @@ By colocating all of the above in one place, Formik keeps things organized--maki
 
 # to run this project
 npm install
+
 npm run start
 
 # formik-antd
